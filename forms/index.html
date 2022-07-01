@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e8d6bb7235.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="regist">
+        <form method="post" action="index.php">
+            
+            <div class="form_inner">
+                
+                <h1 class="title">Форма входа</h1>
+
+                <input type="email" name="input_email" placeholder="Email" required>
+
+                <div class="input_password_things">
+                    
+                    <input type="password" name="input_password" placeholder="Password" required>
+
+                    <button class="input_password_btn" type="button">
+                        <i class="fa-solid fa-eye"></i>
+                    </button>
+                
+                </div>
+
+                <div class="div_aut_btn">
+                    <button class="aut_btn" type="submit">авторизоваться</button>
+                </div>
+
+                <div class="reg_info">
+                    <div class="text">У вас нет учетной записи?</div>
+
+                    <button class="reg_btn" type="button">Зарегистрироваться</button>
+                </div>
+
+            </div>
+        
+        </form>
+    </div>
+    
+</body>
+</html>
